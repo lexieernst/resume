@@ -1,0 +1,100 @@
+h1 {
+  position: fixed;
+  left:540px;
+  top: 340px;
+  font-style: bold;
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  color: white;
+  font-size: 46px;
+}
+
+div span{
+  color: black;
+  font-style: bold;
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-size: 25px;
+}
+
+#education {
+  border: 10px solid;
+  height:12em;
+  width:12em;
+  line-height: 12em;
+  text-align:center;
+  vertical-align: middle;
+  border-radius: 180px;
+  border-color: #0099FF;
+  position: fixed;
+  left: 550px;
+  top:60px
+}
+
+#work_experience {
+  border: 10px solid;
+  height:12em;
+  width:12em;
+  line-height: 12em;
+  text-align:center;
+  border-radius: 180px;
+  border-color: #FFE200;
+  position: fixed;
+  top: 450px;
+  left: 710px;
+}
+
+#interests {
+  border: 10px solid;
+  height:12em;
+  width:12em;
+  line-height: 12em;
+  text-align:center;
+  vertical-align: middle;
+  border-radius: 180px;
+  border-color: #7521FF;
+  position: fixed;
+  top: 450px;
+  left: 390px;
+}
+
+#contact_info{
+  border: 10px solid;
+  height:12em;
+  width:12em;
+  line-height: 12em;
+  text-align:center;
+  vertical-align: middle;
+  border-radius: 180px;
+  border-color: #FD1F42;
+  position: fixed;
+  top: 215px;
+  left: 330px;
+}
+
+#about{
+  border: 10px solid;
+  height:12em;
+  width:12em;
+  line-height: 12em;
+  text-align:center;
+  vertical-align: middle;
+  border-radius: 180px;
+  border-color: #00CC66;
+  position: fixed;
+  top: 215px;
+  left: 760px;
+}
+
+body {
+  // background-image: url(http://i.imgur.com/Ae021aN.jpg);
+    background-color: #3C3C3D;
+;
+
+}
+
+.nav_circle:hover {
+  background-color: black;
+}
+
+.nav_circle span {
+  color: white;
+}

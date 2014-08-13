@@ -7,9 +7,9 @@ div span{
 }
 
 #name {
- position:absolute;
+ position:fixed;
  display: inline-block;
- margin-top: 90px;
+ margin-top: 80px;
  font-size: 40px;
  margin-left: -30px;
  }
@@ -23,7 +23,9 @@ div span{
   vertical-align: middle;
   border-radius: 180px;
   border-color: rgba(1, 209, 235, .8);
-  margin: 0 auto;
+  margin-left: 520px;
+  display: inline-block;
+
 }
 
 .middle #interests {
@@ -37,8 +39,8 @@ div span{
  margin-left: 180px;
  margin-top: -50px;
  display: inline-block;
-/* position: fixed;
-*/}
+ position: fixed;
+}
 
 .middle #experience {
  border: 10px solid;
@@ -77,10 +79,11 @@ div span{
   text-align:center;
   vertical-align: middle;
   border-radius: 180px;
- border-color: rgba(254,241,111,.8);
+  border-color: rgba(254,241,111,.8);
   margin-left: 85px;
   margin-top: 23px;
   display: inline-block;
+  position: fixed;
 }
 
 #education:hover span{
@@ -122,3 +125,63 @@ div span{
 #about:hover {
   background-color: black;
 }
+
+/*#education:hover {
+  border: 15px solid;
+  border-color: rgba(1, 209, 235, .8);
+   -webkit-transition:all 0.3s ease-in-out;
+    -moz-transition:all 0.3s ease-in-out;
+    -o-transition:all 0.3s ease-in-out;
+    transition:all 0.3s ease-in-out;
+}
+
+#experience:hover {
+  border: 15px solid;
+  border-color: #df6c4f;
+   -webkit-transition:all 0.3s ease-in-out;
+    -moz-transition:all 0.3s ease-in-out;
+    -o-transition:all 0.3s ease-in-out;
+    transition:all 0.3s ease-in-out;
+}
+
+#interests:hover {
+  border: 15px solid;
+  border-color: rgba(1, 187, 176, .8);
+   -webkit-transition:all 0.3s ease-in-out;
+    -moz-transition:all 0.3s ease-in-out;
+    -o-transition:all 0.3s ease-in-out;
+    transition:all 0.3s ease-in-out;
+  margin-bottom: -90px;
+}
+
+#contact_info:hover {
+  border: 15px solid;
+  border-color: rgba(255, 191, 64, .8);
+   -webkit-transition:all 0.3s ease-in-out;
+    -moz-transition:all 0.3s ease-in-out;
+    -o-transition:all 0.3s ease-in-out;
+    transition:all 0.3s ease-in-out;
+}
+
+#about:hover {
+  border: 15px solid;
+ border-color: rgba(254,241,111,.8);
+   -webkit-transition:all 0.3s ease-in-out;
+    -moz-transition:all 0.3s ease-in-out;
+    -o-transition:all 0.3s ease-in-out;
+    transition:all 0.3s ease-in-out;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+

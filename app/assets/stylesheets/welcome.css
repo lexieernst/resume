@@ -1,0 +1,124 @@
+div span{
+  color: black;
+  font-style: bold;
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-size: 25px;
+  text-color: black;
+}
+
+#name {
+ position:absolute;
+ display: inline-block;
+ margin-top: 90px;
+ font-size: 40px;
+ margin-left: -30px;
+ }
+
+#education {
+  border: 10px solid;
+  height:12em;
+  width:12em;
+  line-height: 12em;
+  text-align:center;
+  vertical-align: middle;
+  border-radius: 180px;
+  border-color: rgba(1, 209, 235, .8);
+  margin: 0 auto;
+}
+
+.middle #interests {
+ border: 10px solid;
+ height:12em;
+ width:12em;
+ line-height: 12em;
+ text-align:center;
+ border-radius: 180px;
+ border-color: rgba(1, 187, 176, .8);
+ margin-left: 180px;
+ margin-top: -50px;
+ display: inline-block;
+/* position: fixed;
+*/}
+
+.middle #experience {
+ border: 10px solid;
+ height:12em;
+ width:12em;
+ line-height: 12em;
+ text-align:center;
+ border-radius: 180px;
+  border-color: #df6c4f;
+ margin-left: 300px;
+ margin-right: 60px;
+ margin-top: -50px;
+ display: inline-block;
+}
+
+.bottom #contact_info{
+  border: 10px solid;
+  height:12em;
+  width:12em;
+  line-height: 12em;
+  text-align:center;
+  vertical-align: middle;
+  border-radius: 180px;
+  border-color: rgba(255, 191, 64, .8);
+  margin-left: 375px;
+  margin-top: 23px;
+  left: 330px;
+  display:inline-block;
+}
+
+.bottom #about {
+  border: 10px solid;
+  height:12em;
+  width:12em;
+  line-height: 12em;
+  text-align:center;
+  vertical-align: middle;
+  border-radius: 180px;
+ border-color: rgba(254,241,111,.8);
+  margin-left: 85px;
+  margin-top: 23px;
+  display: inline-block;
+}
+
+#education:hover span{
+  color: white;
+}
+
+#education:hover {
+  background-color: black;
+}
+
+#experience:hover span{
+  color: white;
+}
+
+#experience:hover {
+  background-color: black;
+}
+
+#interests:hover span{
+  color: white;
+}
+
+#interests:hover {
+  background-color: black;
+}
+
+#contact_info:hover span{
+  color: white;
+}
+
+#contact_info:hover {
+  background-color: black;
+}
+
+#about:hover span{
+  color: white;
+}
+
+#about:hover {
+  background-color: black;
+}

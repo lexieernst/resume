@@ -13,3 +13,14 @@
  *= require_tree .
  *= require_self
  */
+
+$( document ).ready(function() {
+	$('h1').click(function(){
+	$('h1').rotate({ angle: 0, bind:{
+    "click":function(){
+      $('h1').rotate({animateTo:360});
+    }
+  }
+ });
+});
+});

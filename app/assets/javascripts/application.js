@@ -17,12 +17,12 @@
 
 
 $( document ).ready(function() {	
-  $('h1').mouseenter(function() {
+  $('#name').mouseenter(function() {
   	$(this).css("font-weight", "normal")
-    	.animate({'letter-spacing': '7px'}, 1000);
+    	.animate({'letter-spacing': '6px', 'marginLeft': '-59px'}, 1000)
   });
-  $('h1').mouseleave(function() {
+  $('#name').mouseleave(function() {
   	$(this).css("font-weight", "bold")
-  		.animate({'letter-spacing': '0px'}, 1000);
+  		.animate({'letter-spacing': '0px', 'marginLeft': '-30px'}, 1000)
   });
 });

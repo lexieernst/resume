@@ -34,6 +34,7 @@ div span{
  width:12em;
  line-height: 12em;
  text-align:center;
+ vertical-align: middle;
  border-radius: 180px;
  border-color: rgba(1, 187, 176, .8);
  margin-left: 180px;
@@ -124,6 +125,10 @@ div span{
 
 #about:hover {
   background-color: black;
+}
+
+body {
+  background: url("../Desktop/cloud-background.jpg");
 }
 
 /*#education:hover {

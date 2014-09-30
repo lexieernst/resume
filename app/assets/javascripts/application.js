@@ -16,13 +16,13 @@
 //= require_tree .
 
 
-$( document ).ready(function() {	
-  $('#name').mouseenter(function() {
-  	$(this).css("font-weight", "normal")
-    	.animate({'letter-spacing': '6px', 'marginLeft': '-59px'}, 1000)
-  });
-  $('#name').mouseleave(function() {
-  	$(this).css("font-weight", "bold")
-  		.animate({'letter-spacing': '0px', 'marginLeft': '-30px'}, 1000)
-  });
-});
+// $( document ).ready(function() {	
+//   $('#name').mouseenter(function() {
+//   	$(this).css("font-weight", "normal")
+//     	.animate({'letter-spacing': '6px', 'marginLeft': '-59px'}, 1000)
+//   });
+//   $('#name').mouseleave(function() {
+//   	$(this).css("font-weight", "bold")
+//   		.animate({'letter-spacing': '0px', 'marginLeft': '-30px'}, 1000)
+//   });
+// });

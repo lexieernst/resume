@@ -1,63 +1,95 @@
 <head>
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 <style>
+	body {
+		padding-top: 20px;
+		margin: 0;
+	}
+
+nav {
+  border-top: solid black 1px;
+  border-bottom: solid black 1px;
+  height: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+nav ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+nav li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 auto;
+  padding-left: 11.5%;
+}
+
+ul a {
+  text-decoration: none;
+  font-size: 22px;
+  font-family: Roboto, Arial, sans-serif;
+}
+
 	h1 {
-	/*position:fixed;*/
+	position:fixed;
 	text-align: center;
  	font-family: Roboto, Arial, sans-serif;
  	font-weight: lighter;
  	font-size: 30px;
  	letter-spacing: 4px;
  	opacity: .7;
- 	margin-top: 5%;
+ 	margin-top: 9.5%;
  	border-top: 1px solid;
  	border: 100px;
-
- 	/*display: inline-block;*/
- 	/*margin-top: -9%;
- 	font-size: 20px;*/
-/* 	margin-left: 392px;
-*/ 	/*letter-spacing: 1px;
- 	z-index: 5;
- 	opacity: .7;
- 	margin-left: 0%;
- 	margin-right: 0%;
- 	margin-bottom: 0%;
-    color: black;*/
+ 	left:0;
+	right:0;
+	margin-left:auto;
+	margin-right:auto;
 	}
 
 
  	p {
  	text-align: center;
  	font-family: Roboto, Arial, sans-serif;
- 	/*display: inline-block;*/
- 	margin-top: -36%;
+ 	position: fixed;
+ 	margin-top: 20%;
  	font-size: 20px;
 	letter-spacing: 1px;
  	z-index: 5;
  	opacity: .7;
- 	margin-left: 27%;
- 	margin-right: 27%;
+ 	left:0;
+	right:0;
+	margin-left:auto;
+	margin-right:auto;
  	padding: 0;
 	color: black;
  	z-index: 100;
+ 	width: 19em;
+ 	margin-top: 17.0%;
  	}
 
   #about {
+  	position: fixed;
  	border: 10px solid;
- 	height:33em;
- 	width:33em;
+ 	height:32em;
+ 	width:32em;
  	line-height: 12em;
  	text-align:center;
  	vertical-align: middle;
  	border-radius: 380px;
  	border: rgba(1, 187, 176, .7);
  	background: rgba(1, 187, 176, .7);
- 	margin: 0 auto;
- 	margin-top: 3%;
+ 	left:0;
+	right:0;
+	margin-left:auto;
+	margin-right:auto;
+ 	margin-top: 14%;
  	z-index: 0;
   }
 
-/*#line {
+#line {
   border-style: solid;
   border-bottom: .1em;
   border-top: .1em;
@@ -69,12 +101,14 @@
   background-color: black;
   height: 1px;
   color: black;
-  width: 350px;
-  margin-top: 125px;
-  margin-bottom: 70px;
-  margin-left: 380px;
+  width: 250px;
+  left:0;
+  right:0;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 9%;
   position: fixed;
- }*/
+ }
 
 </style>
 </head>
@@ -84,6 +118,19 @@
 <hr id="line"> </hr>
 
 <body>
+<nav>
+      <ul>
+        <ul>
+        <li><a href="/home"><span>HOME</span></a></li>
+         <li><a href="/about"><span>ABOUT</span></a></li>
+          <li><a href="experience"><span>EXPERIENCE</span></a></li>
+          <li><a href="contact"><span>CONTACT</span></a></li>
+     </ul>
+      </ul>
+      <br clear="all">
+  </nav>
 <p>Hello! My name is Lexie Ernst and I'm currently a Junior studying at The Ross School of Business in Ann Arbor, Michigan. I'm also pursuing minors in Computer Science and French!
-<br><br>Among many things, I am passionate about the intersection of business and technology. I love learning new things, am drawn to innovation, and one day hope to change the world.</p>
+<br><br>Among many things, I am passionate about the intersection of business and technology. I love learning new things, am drawn to innovation, and one day hope to change the world.<br><br>
+Here's a website that I coded using Ruby on Rails to tell you a little bit about myself. Check out the code here!</p>
+
 </body>

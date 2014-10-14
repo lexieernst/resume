@@ -12,6 +12,9 @@ Rails.application.routes.draw do
   get '/about' => 'welcome#about'
   get '/experience' => 'welcome#experience'
   get '/contact' => 'welcome#contact'
+  get '/home' => 'welcome#index'
+
+
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

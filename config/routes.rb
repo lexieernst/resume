@@ -6,6 +6,12 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
   root 'welcome#index'
+  # if params[:about]
+  #     redirect_to "/views/welcome/about.html.erb"
+  # end
+  get '/about' => 'welcome#about'
+  get '/experience' => 'welcome#experience'
+  get '/contact' => 'welcome#contact'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

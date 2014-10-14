@@ -1,4 +1,4 @@
-div span{
+/*div span{
   color: black;
   font-style: bold;
   font-family: Roboto, Arial, sans-serif;
@@ -6,6 +6,32 @@ div span{
   font-weight: bold;
   text-color: black;
   letter-spacing: 1px;
+}
+
+nav {
+  border-top: solid black 1px;
+  border-bottom: solid black 1px;
+  height: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+nav ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+nav li {
+  list-style: none;
+  display: inline-block;
+  padding-left: 19%;
+/*  margin-right: 0px;*/
+}
+
+ul a {
+  text-decoration: none;
+  font-size: 22px;
+  font-family: Roboto, Arial, sans-serif;
 }
 
 #name {
@@ -251,3 +277,4 @@ body {
 
 
 
+*/

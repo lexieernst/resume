@@ -1,26 +1,279 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
- * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any styles
- * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
- * file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+div span{
+  color: black;
+  font-style: bold;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+  text-color: black;
+  letter-spacing: 1px;
+}
 
-$( document ).ready(function() {
-	$('h1').click(function(){
-	$('h1').rotate({ angle: 0, bind:{
-    "click":function(){
-      $('h1').rotate({animateTo:360});
-    }
-  }
- });
-});
-});
+nav {
+  border-top: solid black 1px;
+  border-bottom: solid black 1px;
+  height: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+nav ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+nav li {
+  list-style: none;
+  display: inline-block;
+  padding-left: 19%;
+/*  margin-right: 0px;*/
+}
+
+ul a {
+  text-decoration: none;
+  font-size: 22px;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+#name {
+ position:fixed;
+ font-family: Roboto, Arial, sans-serif;
+ display: inline-block;
+ margin-top: 145px;
+ font-size: 20px;
+ margin-left: 392px;
+ letter-spacing: 4px;
+ z-index: 5;
+ opacity: .7;
+ }
+
+ #line {
+  border-style: solid;
+  border-bottom: .1em;
+  border-top: .1em;
+  border-left: .1em;
+  border-right: .1em;
+  height: .5px;
+  border-color: black;
+  z-index: 6;
+  background-color: black;
+  height: 1px;
+  color: black;
+  width: 350px;
+  margin-top: 125px;
+  margin-bottom: 70px;
+  margin-left: 380px;
+  position: fixed;
+ }
+
+#education {
+  border: 10px solid;
+  height:19em;
+  width:19em;
+  line-height: 19em;
+  text-align:center;
+  vertical-align: middle;
+  border-radius: 180px;
+  border: rgba(255,241,0,.65);
+  background: rgba(255,241,0,.65);
+  margin-left: 405px;
+  display: inline-block;
+  margin-top: 100px;
+  z-index: 3;
+  position: fixed;
+
+}
+
+.middle #interests {
+ border: 10px solid;
+ height:12em;
+ width:12em;
+ line-height: 12em;
+ text-align:center;
+ vertical-align: middle;
+ border-radius: 180px;
+ border: rgba(1, 187, 176, .7);
+ background: rgba(1, 187, 176, .7);
+ margin-left: -55px;
+ margin-top: 0px;
+ display: inline-block;
+ visibility: hidden;
+/* position: fixed;*/
+}
+
+.bottom #experience {
+ z-index: 4;
+ border: 10px solid;
+ height:19em;
+ width:19em;
+ line-height: 19em;
+ text-align:center;
+ border-radius: 180px;
+ border: rgba(0,168,153,.75);
+ background: rgba(0,168,153,.75);
+ margin-left: 405px;
+ margin-right: 60px;
+ margin-top: -3px;
+ margin-bottom: 20px;
+ display: inline-block;
+ position: fixed;
+}
+
+.bottom #contact_info{
+  border: 10px solid;
+  height:19em;
+  width:19em;
+  line-height: 19em;
+  text-align:center;
+  vertical-align: middle;
+  border-radius: 180px;
+  border: rgba(0,187,231,.62);
+  background: rgba(0,187,231,.62);
+  margin-left: 17px;
+  margin-top: 50px;
+  left: 330px;
+  z-index: 1;
+  display:inline-block;
+  position: fixed;
+}
+
+.bottom #about {
+  border: 10px solid;
+  height:19em;
+  width:19em;
+  line-height: 19em;
+  text-align:center;
+  vertical-align: middle;
+  border-radius: 180px;
+  border: rgba(237,28,36,.65);
+  background: rgba(237,28,36,.65);
+  margin-left: 470px;
+  margin-top: 50px;
+  display: inline-block;
+  z-index: 2;
+  position: fixed;
+}
+
+#initial {
+  border: 5px solid;
+  height:5em;
+  width:5em;
+  line-height: 5em;
+  text-align:center;
+  vertical-align: middle;
+  border-radius: 180px;
+  border: white;
+  background: white;
+  margin-left: 517px;
+  display: inline-block;
+  margin-top: 150px;
+  z-index: 7;
+  position: fixed;
+}
+
+/*font:first-letter { 
+  font-size: 25px; 
+}
+*/
+/*#education:hover span{
+  color: white;
+}
+
+#education:hover {
+  background-color: black;
+}
+
+#experience:hover span{
+  color: white;
+}
+
+#experience:hover {
+  background-color: black;
+}
+
+#interests:hover span{
+  color: white;
+}
+
+#interests:hover {
+  background-color: black;
+}
+
+#contact_info:hover span{
+  color: white;
+}
+
+#contact_info:hover {
+  background-color: black;
+}
+
+#about:hover span{
+  color: white;
+}
+
+#about:hover {
+  background-color: black;
+}
+
+body {
+  background: url("../Desktop/cloud-background.jpg");
+}*/
+
+/*#education:hover {
+  border: 15px solid;
+  border-color: rgba(1, 209, 235, .8);
+   -webkit-transition:all 0.3s ease-in-out;
+    -moz-transition:all 0.3s ease-in-out;
+    -o-transition:all 0.3s ease-in-out;
+    transition:all 0.3s ease-in-out;
+}
+
+#experience:hover {
+  border: 15px solid;
+  border-color: #df6c4f;
+   -webkit-transition:all 0.3s ease-in-out;
+    -moz-transition:all 0.3s ease-in-out;
+    -o-transition:all 0.3s ease-in-out;
+    transition:all 0.3s ease-in-out;
+}
+
+#interests:hover {
+  border: 15px solid;
+  border-color: rgba(1, 187, 176, .8);
+   -webkit-transition:all 0.3s ease-in-out;
+    -moz-transition:all 0.3s ease-in-out;
+    -o-transition:all 0.3s ease-in-out;
+    transition:all 0.3s ease-in-out;
+  margin-bottom: -90px;
+}
+
+#contact_info:hover {
+  border: 15px solid;
+  border-color: rgba(255, 191, 64, .8);
+   -webkit-transition:all 0.3s ease-in-out;
+    -moz-transition:all 0.3s ease-in-out;
+    -o-transition:all 0.3s ease-in-out;
+    transition:all 0.3s ease-in-out;
+}
+
+#about:hover {
+  border: 15px solid;
+ border-color: rgba(254,241,111,.8);
+   -webkit-transition:all 0.3s ease-in-out;
+    -moz-transition:all 0.3s ease-in-out;
+    -o-transition:all 0.3s ease-in-out;
+    transition:all 0.3s ease-in-out;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
